@@ -1,0 +1,7 @@
+@1
+(LOOP)
+D=A
+M=D
+@LOOP
+D=D-1;JEQ
+

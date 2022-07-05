@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.KICstartXMLProfile": "html",
+        "iosfwd": "cpp"
+    }
+}
