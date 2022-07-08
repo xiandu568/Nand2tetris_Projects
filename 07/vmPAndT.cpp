@@ -29,8 +29,13 @@ void transLateAndWrit(string filename,parser& parser,Translater& translater){
 }
 
 int main(int argc,char* argv[]){
+    if(argc !=2){
+        cout<<"please input file name"<<endl;
+        exit(1);
+    }
+    string fileName=argv[1];
     // string fileName="MemoryAccess/StaticTest/StaticTest.vm";
-    string fileName="MemoryAccess/BasicTest/BasicTest.vm";
+    // string fileName="MemoryAccess/BasicTest/BasicTest.vm";
     // string fileName="StackArithmetic/StackTest/StackTest.vm";
     parser pr(fileName);
     Translater translater(fileName);
