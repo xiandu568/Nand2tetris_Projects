@@ -64,7 +64,7 @@ void translateAndWrite(vector<string>& path){
             fstream mfile=fstream(outPutFile, ios::out);
             mfile<<compilationEngine.getOutPut();
             mfile.close();
-            cout<<"translate success"<<endl;
+            cout<<"translate success!"<<endl;
         }
         catch(string msg){
             cout<<msg<<endl; //错误提示信息
