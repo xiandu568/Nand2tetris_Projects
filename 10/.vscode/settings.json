@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "*.KICstartXMLProfile": "html",
+        "fstream": "cpp",
+        "xstring": "cpp",
+        "iosfwd": "cpp",
+        "iostream": "cpp"
+    }
+}
