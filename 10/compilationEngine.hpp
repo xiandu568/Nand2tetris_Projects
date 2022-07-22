@@ -521,8 +521,6 @@ public:
                         }
 
 
-
-
                     }else{
                         // }错误
                         string errormsg=string("} expected, but ")+tokenizer->curToken+"be found in"+tokenizer->getStrline();
